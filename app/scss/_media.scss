@@ -297,8 +297,26 @@
         line-height: 17px;
         font-weight: 500;
     }
+    .ordering__prompt-1{
+        width: 171px;
+        height: 62px;
+        padding: 15px 15px;
+    }
+    .ordering__prompt-2{
+        width: 165px;
+        height: 57px;
+        padding: 13px 12px;
+    }
+    .ordering__prompt-3{
+        width: 122px;
+        height: 58px;
+        padding: 13px 16px;
+    }
     .ordering__prompt-4{
+        width: 107px;
+        height: 43px;
         left: 70px;
+        padding: 13px 13px;
     }
     .input__venue-city{
         width: 100%;
@@ -469,7 +487,14 @@
     .form-control,
     .form-control__venue,
     .form-control__city{
+        height: 57px;
         margin-bottom: 16px;
+        input{
+            height: 57px;
+        }
+    }
+    .form-control__textarea{
+        height: 140px;
     }
     .form-control textarea{
         height: 140px;
@@ -558,8 +583,19 @@
             margin-left: 0;
         }
     }
+    .slider,
+    .slider__content,
+    .slide{
+        width: 440px;
+    }
+    h3{
+        width: 420px;
+    }
 }
 @media (max-width: 550px){
+    .download__inner-top .download__text{
+        font-size: 25px;
+    }
     .connection__text{
         font-size: 24px;
         line-height: 33px;
@@ -686,6 +722,14 @@
             margin-top: 14px;
         }
     }
+    .slider,
+    .slider__content,
+    .slide{
+        width: 340px;
+    }
+    h3{
+        width: 320px;
+    }
 }
 @media (max-width: 450px){
     .header__logo{
@@ -790,7 +834,7 @@
         }
     }
     .ordering__prompt {
-        padding: 7px 10px;
+        padding: 10px;
         font-size: 13px;
         line-height: 16px;
     }
@@ -820,6 +864,14 @@
     .footer__content-text{
         flex-wrap: wrap;
     }
+    .slider,
+    .slider__content,
+    .slide{
+        width: 240px;
+    }
+    h3{
+        width: 220px;
+    }
 }
 @media (max-width: 350px){
     .header__login{
@@ -827,7 +879,7 @@
             display: none;
         }
     }
-    .download__text{
+    .download__inner-top .download__text{
         font-size: 22px;
     }
     .connection__text{
@@ -849,6 +901,9 @@
         img{
             height: 358px;
         }
+    }
+    .ordering__prompt{
+        padding: 7px 10px;
     }
     .ordering__prompt-1{
         width: 120px;
