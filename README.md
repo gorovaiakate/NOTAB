@@ -1,5 +1,9 @@
 # Выполненное тестовое задание
 
+http://kate.cv89914.tmweb.ru/NOTAB1/app/index.html
+
+http://kate.cv89914.tmweb.ru/NOTAB1/app/slider.html
+
 ## Верстка
 
 ### Требования:
